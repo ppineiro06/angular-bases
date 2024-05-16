@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'bases';
+
+  public title: string ='Mi primera app de Angular';
+
+
+  //tambien se puede hacer:
+  //increaseBy(value: number): void{
+  //this.counter += value;
+  //}
+
+  //y en el html ponemos increaseBy(valor a sumar O valor a restar)
+  //p.e: increaseBy(-1) resta 1
 }
